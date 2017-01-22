@@ -1,0 +1,19 @@
+/* Your CSS goes here */
+h1{
+    font-family:"Lucida Console", Monaco, monospace;
+}
+
+input {
+    background-color:yellow;
+}
+#Last {
+    font-weight: bold;
+}
+
+.instructions {
+    border-color: #C0C0C0;
+    border-style: dotted;
+    border-width: 2px;
+    width:75%;
+    padding:10px;
+}
