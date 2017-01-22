@@ -8,23 +8,29 @@
   <h1>Welcome!</h1>
   <p class="instructions">To apply for one of our open positions, please complete this short form with some basic information.  After you submit we will get in touch with you shortly.  Thank you applying to be a part of our company!
   </p>
+
   <form action="/application-success" method="POST">
+
     Enter Your Name:<br>
     <label for="First">First: </label> <!--labels and ids for accessability -->
       <input id="First" type="text">
+
     <label for="Last">Last: </lable>
       <input id="Last" type="text"><br><br>
+
     <label for="salary">Salary Requirement: $</label>
-      <input type="number" step="1000"><br>
+      <input type="number" step="any"><br>
+
     <label for="jobtitle">Select Job Title: </label>
-    <select id="jobtitle">
-      <option value="Software Engineer">Software Engineer</option>
-      <option value="QA Engineer">QA Engineer</option>
-      <option value="Product Manager">Product Manager</option>
-    </select><br><br>
+      <select id="jobtitle">
+        <option value="Software Engineer">Software Engineer</option>
+        <option value="QA Engineer">QA Engineer</option>
+        <option value="Product Manager">Product Manager</option>
+      </select><br><br>
+
     <input type="submit">
+    
   </form>
-<!-- your html goes here -->
 
 </body>
 </html>
